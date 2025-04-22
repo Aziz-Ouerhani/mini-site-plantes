@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (form) {
       form.addEventListener("submit", function (e) {
         e.preventDefault();
-        alert("Merci pour votre message 🌱");
+        alert("Merci pour votre message");
         form.reset();
       });
     }
